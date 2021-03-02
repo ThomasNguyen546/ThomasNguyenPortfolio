@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "ThomasNguyenPortfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomasnguyen546.github.io/ThomasNguyenPortfolio/",
+  "homepage": "http://thomasnguyen546.github.io/ThomasNguyenPortfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.2.0",
