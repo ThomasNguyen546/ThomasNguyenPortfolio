@@ -1,6 +1,7 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
+import resumeDownload from '../img/Resume.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -32,10 +33,10 @@ class Intro extends React.Component {
               <p className="pt-3">
                 <a
                   className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
+                  href={resumeDownload} download="Resume.pdf" target="_blank"
                   role="button"
                 >
-                  View My Work
+                  Download my Resume
                 </a>
               </p>
             </div>

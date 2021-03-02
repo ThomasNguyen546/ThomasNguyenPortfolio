@@ -107,7 +107,9 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Contact me through email at:
+                          <br></br>
+                          ThomasNguyen546@gmail.com
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -119,18 +121,7 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
+                              href="https://github.com/thomasnguyen546"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +132,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/thomasnguyen546"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
