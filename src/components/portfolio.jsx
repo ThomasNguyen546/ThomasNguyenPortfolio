@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href="https://github.com/ThomasNguyen546/fortress-of-fandom">
                   <div className="work-img">
                     <img src={stock} alt="" className="img-fluid" />
                   </div>
@@ -88,7 +88,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock1} data-lightbox="gallery-aguadeluz">
+                <a href="https://github.com/ThomasNguyen546/Recipe-Finder">
                   <div className="work-img">
                     <img src={stock1} alt="" className="img-fluid" />
                   </div>
@@ -149,7 +149,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock2} data-lightbox="gallery-todo">
+                <a href="https://github.com/ThomasNguyen546/holiday-planner">
                   <div className="work-img">
                     <img src={stock2} alt="" className="img-fluid" />
                   </div>
@@ -211,7 +211,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock3} data-lightbox="gallery-medlingos">
+                <a href="https://github.com/ThomasNguyen546/Budget-Tracker">
                   <div className="work-img">
                     <img src={stock3} alt="" className="img-fluid" />
                   </div>
@@ -272,7 +272,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock4} data-lightbox="gallery-smth">
+                <a href="https://github.com/ThomasNguyen546/Note-Taker">
                   <div className="work-img">
                     <img src={stock4} alt="" className="img-fluid" />
                   </div>
@@ -331,7 +331,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock5} data-lightbox="gallery-mf">
+                <a href="https://github.com/ThomasNguyen546/Pizza-Hunt">
                   <div className="work-img">
                     <img src={stock5} alt="" className="img-fluid" />
                   </div>

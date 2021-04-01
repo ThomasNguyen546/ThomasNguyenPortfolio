@@ -1,7 +1,7 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
-import resumeDownload from '../img/Resume.pdf'
+import resumeDownload from '../img/ThomasNguyenFullStackResume.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -33,7 +33,7 @@ class Intro extends React.Component {
               <p className="pt-3">
                 <a
                   className="btn btn-primary btn js-scroll px-4"
-                  href={resumeDownload} download="Resume.pdf" target="_blank"
+                  href={resumeDownload} download="ThomasNguyenFullStackResume.pdf" target="_blank"
                   role="button"
                 >
                   Download my Resume

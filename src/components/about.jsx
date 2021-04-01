@@ -1,23 +1,88 @@
 import React from "react";
-import myImage from "../img/ProfilePicture.JPG";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-
         {
-          id: "first-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+          id: "HTML5_skill",
+          content: "HTML5",
+          percentage: "87%",
+          value: "87"
+        },
+        {
+          id: "CSS3_skill",
+          content: "CSS3",
+          percentage: "83%",
+          value: "83"
+        },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript",
+          percentage: "81%",
+          value: "81"
+        },
+        {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          percentage: "91%",
+          value: "91"
+        },
+        {
+          id: "React_skill",
+          content: "React",
+          percentage: "85%",
+          value: "85"
+        },
+        {
+          id: "Git_skill",
+          content: "Git",
+          percentage: "87%",
+          value: "87"
+        },
+        {
+          id: "Express_skill",
+          content: "Express",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "CommandLine_skill",
+          content: "Command Line",
+          percentage: "92%",
+          value: "92"
+        },
+        {
+          id: "Heroku_skill",
+          content: "Heroku",
+          percentage: "75%",
+          value: "75"
+        },
+        {
+          id: "Handlebars_skill",
+          content: "Handlebars",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "JQuery_skill",
+          content: "JQuery",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "MongoDB_skill",
+          content: "MongoDB",
+          percentage: "83%",
+          value: "83"
+        },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-          "Welcome to my Portfolio Page! My name is Thomas Nguyen and I graduated with a Bachelor's of Science in Finance from the David Eccles Business School at the University of Utah. After graduating with my Finance degree, I decided to enroll into a coding bootcamp from the University of Utah. I hope that my finance background along with the knowledge I've gained through the coding bootcamp will make me a valuable asset."
+            "Welcome to my Portfolio Page! My name is Thomas Nguyen and I graduated with a Bachelor's of Science in Finance from the David Eccles Business School at the University of Utah. After graduating with my Finance degree, I decided to enroll into a coding bootcamp from the University of Utah. I hope that my finance background along with the knowledge I've gained through the coding bootcamp will make me a valuable asset."
         },
         {
           id: "second-p-about",
@@ -41,7 +106,48 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-12">
+                  <div className="col-md-6">
+                    <div className="row">
+                      <div
+                        className="col-sm-6 col-md-5"
+                        style={{ margin: "0 auto" }}
+                      >
+                        <div
+                          className="about-img"
+                          style={{ textAlign: "center" }}
+                        >
+                          <img
+                            className="img-fluid rounded b-shadow-a"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="skill-mf">
+                      {/* <p className="title-s">Skill</p> */}
+                      {this.state.skills.map(skill => {
+                        return (
+                          <React.Fragment key={skill.id}>
+                            <span>{skill.content}</span>{" "}
+                            <span className="pull-right">
+                              {skill.percentage}
+                            </span>
+                            <div className="progress">
+                              <div
+                                className="progress-bar"
+                                role="progressbar"
+                                style={{ width: skill.percentage }}
+                                aria-valuenow={skill.value}
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
+                          </React.Fragment>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
