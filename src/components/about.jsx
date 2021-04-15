@@ -8,74 +8,74 @@ class About extends React.Component {
         {
           id: "HTML5_skill",
           content: "HTML5",
-          percentage: "87%",
-          value: "87"
+          // percentage: "87%",
+          // value: "87"
         },
         {
           id: "CSS3_skill",
           content: "CSS3",
-          percentage: "83%",
-          value: "83"
+          // percentage: "83%",
+          // value: "83"
         },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          percentage: "81%",
-          value: "81"
+          // percentage: "81%",
+          // value: "81"
         },
         {
           id: "Bootstrap_skill",
           content: "Bootstrap",
-          percentage: "91%",
-          value: "91"
+          // percentage: "91%",
+          // value: "91"
         },
         {
           id: "React_skill",
           content: "React",
-          percentage: "85%",
-          value: "85"
+          // percentage: "85%",
+          // value: "85"
         },
         {
           id: "Git_skill",
           content: "Git",
-          percentage: "87%",
-          value: "87"
+          // percentage: "87%",
+          // value: "87"
         },
         {
           id: "Express_skill",
           content: "Express",
-          percentage: "80%",
-          value: "80"
+          // percentage: "80%",
+          // value: "80"
         },
         {
           id: "CommandLine_skill",
           content: "Command Line",
-          percentage: "92%",
-          value: "92"
+          // percentage: "92%",
+          // value: "92"
         },
         {
           id: "Heroku_skill",
           content: "Heroku",
-          percentage: "75%",
-          value: "75"
+          // percentage: "75%",
+          // value: "75"
         },
         {
           id: "Handlebars_skill",
           content: "Handlebars",
-          percentage: "80%",
-          value: "80"
+          // percentage: "80%",
+          // value: "80"
         },
         {
           id: "JQuery_skill",
           content: "JQuery",
-          percentage: "80%",
-          value: "80"
+          // percentage: "80%",
+          // value: "80"
         },
         {
           id: "MongoDB_skill",
           content: "MongoDB",
-          percentage: "83%",
-          value: "83"
+          // percentage: "100",
+          // value: "100"
         },
       ],
       about_me: [
@@ -87,7 +87,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Outside of coding and education, I consider myself a social person. I love to play video games specifically and compete. One of the opportunities that I got to experiencewas being a part of the University of Utah's very first e-sports team. I was a League of Legends player on scholarhip at the University of Utah since the inception of their e-sportsprogram, and continued to be on the team till I graduated. Being on the team has taught me many valuable experiences such as working in a team environment to achieve a common goal, interacting in a team environment, as well as lead the team when we competed against colleges across the nation."
+            "I’m a Full Stack Web Developer leveraging a background in Finance and customer service. Recognized for a keen eye for aesthetics, and ability to work in a team environment. I recently received a Certificate in Full Stack Web Development from the University of Utah. I have excellent interpersonal communication skills and team member who work well with others on team-based projects, as well as being known for being creative and applying skills effectively in any environment."
         },
         {
           id: "third-p-about",
